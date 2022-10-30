@@ -1,0 +1,41 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    debug (1.6.3)
+      irb (>= 1.3.6)
+      reline (>= 0.3.1)
+    diff-lcs (1.5.0)
+    io-console (0.5.11)
+    irb (1.4.2)
+      reline (>= 0.3.0)
+    rainbow (3.1.1)
+    rake (13.0.6)
+    reline (0.3.1)
+      io-console (~> 0.5)
+    rspec (3.12.0)
+      rspec-core (~> 3.12.0)
+      rspec-expectations (~> 3.12.0)
+      rspec-mocks (~> 3.12.0)
+    rspec-core (3.12.0)
+      rspec-support (~> 3.12.0)
+    rspec-expectations (3.12.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.12.0)
+    rspec-mocks (3.12.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.12.0)
+    rspec-support (3.12.0)
+    ruby-debug-ide (0.7.3)
+      rake (>= 0.8.1)
+
+PLATFORMS
+  universal-darwin-21
+
+DEPENDENCIES
+  debug
+  rainbow
+  rspec
+  ruby-debug-ide
+
+BUNDLED WITH
+   2.3.17
